@@ -10,7 +10,7 @@
 #   [3. 2]
 # ]
 #
-# This, plus the @snake coordinate pair are the 2 inputs availble for AIs
+# This, plus the @apple coordinate pair are the 2 inputs availble for AIs
 # Other AI inputs can be calculated from these inputs.
 
 class SnakeGame
