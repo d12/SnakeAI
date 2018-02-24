@@ -5,7 +5,7 @@ require_relative "snake_game"
 class GameManager
   def initialize(player_class, length, width)
     @player_class = player_class
-    @snake_game = SnakeGame.new(length: 5, width: 5)
+    @snake_game = SnakeGame.new(length: 8, width: 8, players: 2)
   end
 
   def play
@@ -16,7 +16,7 @@ class GameManager
 
       unless @snake_game.move(move)
         puts "Died! Attempted move: #{move}"
-        
+
         puts "Board state:"
         @snake_game.print
 
